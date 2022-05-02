@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1920px;
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f8ff;
+}
+
+.navigation {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #f8f8ff;
+    font-weight: 300;
+    
+    
+}
+
+.banner {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    max-height: 1080px;
+    background: url(/img/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content {
+    width: 100%;
+    max-width: 1820px;
+    padding-top: 140px;
+}
+
+.banner-content h1 {
+    font-size: 42px;
+    font-weight: 400;
+    color: hsl(345,84%,44%);
+    text-align: center;
+}
+
+.banner-btn {
+    padding-top: 50px;
+    padding-bottom: 140px;
+    text-align: center;
+}
+
+.banner-btn a {
+    background-color: transparent;
+    border: 2px solid rgb(44, 44, 44);
+    color: #fff;
+    padding: 6px 35px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.desc {
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 100px;
+}
+
+.desc-1 , .desc-2, .desc-3, .realtor{
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.desc-1 img, .desc-2 img, .desc-3 img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.desc-text {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.desc-text h3 {
+    font-size: 28px;
+    
+}
+
+.desc-text p , .realtor p {
+    font-size: 14px;
+}
+
+.desc-3 {
+    padding-bottom: 100px;
+}
+
+.realtor {
+    padding-bottom: 100px;
+    background-color: #f8f8ff;
+}
+
+.greguy h3 {
+    text-decoration: underline;
+    text-decoration-color: hsl(345,84%,44%);
+    
+}
+
+.greguy h4 {
+    color: hsl(345,84%,44%);
+    font-size: 36px;
+    padding-top: 25px;
+   
+    
+}
+
+.greguy img {
+    border-radius: 50%;
+    padding-top: 25px;
+}
+
+.greguy p {
+    padding-top: 25px;
+    font-size: 14px;
+}
+
+.slide {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+
+
+
+
+.social {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+   
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+
+.contact-btn , .submit-btn {
+    text-align: center;
+}
+
+.submit-btn {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.contact-btn {
+    padding-bottom: 50px;
+}
+
+.contact-btn a , #form-submit {
+    color: hsl(345,84%,44%);
+    background-color:transparent;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 6px;
+    border: thin solid hsl(240,1%,25%);
+    box-shadow: 2px 2px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 35px;
+    border-radius: 6px;
+    text-align: center;
+    
+}
+
+.validation-form {
+    background-color:#f8f8ff;
+    margin-top: 100px;
+    padding-top: 50px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+.contact h3 , .contact p {
+    color: hsl(0,0%,23%);
+}
+
+.contact-info {
+    padding-top: 50px;
+    width: 100%;
+    max-width: 334.19px;
+    margin: 0 auto;
+    display: block;
+    
+    
+}
+
+.contact-info h4 {
+    padding-top: 25px;
+}
+
+#schedule {
+    border: thin solid hsl(345,84%,44%);
+    border-radius: 4px;
+}
+
+#contact-form {
+    width: 100%;
+    max-width: 470px;
+    margin: 0 auto;
+    display: none;
+    
+    
+    
+}
+
+
+.form-submission {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.form-submission a {
+    color:hsl(0,0%,23%) ;
+    text-decoration: underline;
+}
+
+
+.form-submission button {
+    color: hsl(345,84%,44%);
+    background-color:transparent;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 6px;
+    border: thin solid hsl(240,1%,25%);
+    box-shadow: 2px 2px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 35px;
+    border-radius: 6px;
+}
+
+.form-control {
+    line-height: 30px;
+}
+
+.form-check {
+    padding-top: 10px;
+}
+.captcha p {
+    font-size: 12px;
+}
+
+.captcha a {
+   color: hsl(345,84%,44%);
+}
+
+/* MAP SECTION */
+
+::-webKit-input-placeholder { /* WebKit browsers */
+    direction: rtl;
+}
+
+#map {
+    width: 100%;
+    max-width: 600px;
+    height: 25vh;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 6px;
+}
+
+.video {
+    padding-top: 100px;
+}
+
+.video-text {
+    text-align: center;
+}
+
+.video-text h3 {
+    font-size: 28px ;
+    color: hsl(345,84%,44%);
+}
+
+.video-text p {
+    font-size: 14px;
+}
+
+.youtube-video {
+    width: 100%;
+    max-width: 1025px;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    border-radius: 6px;
+    background-color: #ffdddd;
+    
+}
+
+
+.footer {
+    background-image: url(/img/footerbanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 1920px;
+    
+    
+}
+
+.foot-content {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #f8f8ff;
+}
+
+.foot-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.copyright span {
+    color: hsl(345,84%,44%) ;
+}
+
+
+
+
+
+@media (min-width: 1200px){
+    .desc {
+        margin: 0 auto;
+    }
+    .desc-1, .desc-3 {
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 50px;
+       
+    }
+
+    .desc-2 {
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding-top: 100px;
+        gap: 50px;
+    }
+
+    .desc-3 {
+        padding-top: 100px;
+    }
+    
+    .realtor {
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 25px;
+    }
+    .realtor-content {
+        width: 100%;
+        max-width: 600px;
+        
+    }
+
+    .slide {
+        width: 100%;
+        max-width: 500px;
+        padding-bottom: 50px;
+    }
+    .validation-content {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .validation-form {
+        width: 100%;
+        max-width: 1200px;
+        
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #map {
+        width: 100%;
+        max-width: 600px;
+        height: 100vh;
+    }
+
+
+
+    
+
+
+
+}
+
+
+
+/*HOVER EFFECTS*/
+
+#home {
+    display: inline-block;
+    position: relative;
+    color: hsl(240,1%,25%);
+    text-decoration: none;
+}
+
+#home::after {
+    content: '';
+    position: absolute;
+    width: 63.83px;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -10px;
+    left: 0;
+    background-color: hsl(345,84%,44%);
+    transform-origin: bottom right;
+    transition: transform 0.55s ease-out;
+    
+}
+
+#home:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    text-decoration: none;
+}
+
+#infoimmo {
+    display: inline-block;
+    position: relative;
+    color: hsl(240,1%,25%);
+    text-decoration: none;
+} 
+
+#infoimmo::after {
+    content: '';
+    position: absolute;
+    width: 150.88px;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -10px;
+    left: 0;
+    background-color: hsl(345,84%,44%);;
+    transform-origin: bottom right;
+    transition: transform 0.55s ease-out;
+
+}
+
+#infoimmo:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#capsules {
+    display: inline-block;
+    position: relative;
+    color: hsl(240,1%,25%);
+    text-decoration: none;
+} 
+
+#capsules::after {
+    content: '';
+    position: absolute;
+    width: 99.47px;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -10px;
+    left: 0;
+    background-color: hsl(345,84%,44%);;
+    transform-origin: bottom right;
+    transition: transform 0.55s ease-out;
+}
+
+#capsules:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#inscriptions {
+    display: inline-block;
+    position: relative;
+    color: hsl(240,1%,25%);
+    text-decoration: none;
+} 
+
+#inscriptions::after {
+    content: '';
+    position: absolute;
+    width: 166.59px;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -10px;
+    left: 0;
+    background-color: hsl(345,84%,44%);;
+    transform-origin: bottom right;
+    transition: transform 0.50s ease-out;
+}
+
+#inscriptions:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+.banner-btn a:hover, 
+.contact-btn a:hover{
+    background-color: #f8f8ff;
+    color: hsl(240,1%,25%);
+    border-color: hsl(345,84%,44%);
+    font-weight: bolder;
+    
+}
+
+.submit-btn button:hover,
+.form-submission button:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+    border-color: hsl(345,84%,44%);
+}
+
+.form-submission a:hover {
+    font-weight: 600;
+}
