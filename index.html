@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
       <meta http-equiv="x-ua-compatible" content="ie=edge"/>
       <title>Ask Greguy Website</title>
+      <script defer src="js/app.js"></script>
       <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
       <link
@@ -249,21 +250,21 @@
                     </select> 
                     
                     <div class="submit-btn">
-                      <button type="submit" id="form-submit">- ENVOYEZ-NOUS UN MESSAGE -</button>
+                      <button type="button" id="form-submit">- ENVOYEZ-NOUS UN MESSAGE -</button>
                     </div>
               </div>
               
               
 
-              <form action="/" method="post" id="contact-form">
+              <form action="/" method="GET" id="contact-form">
                 <h3>Envoyez-nous un message</h3>
                 <div class="form-outline">
-                  <input type="text" id="typeText" class="form-control"  />
+                  <input type="text" id="typeText" class="form-control" required  />
                   <label class="form-label" for="typeText">Nom</label>
                 </div>
                 <br>
                 <div class="form-outline">
-                  <input type="email" id="typeEmail" class="form-control"  />
+                  <input type="email" id="typeEmail" class="form-control" required />
                   <label class="form-label" for="typeEmail">Email</label>
                 </div>
                 <br>
@@ -273,7 +274,7 @@
                 </div>
 
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                  <input class="form-check-input" type="checkbox" value="yes" id="flexCheckDefault" />
                   <label class="form-check-label" for="flexCheckDefault">Inscrivez-vous à notre liste de diffusion pour recevoir  
                     des <br> mises à jour, des promotions et bien plus.</label>
                 </div>
@@ -282,8 +283,8 @@
                 </div>
 
                 <div class="form-submission">
-                  <button type="submit" id="formSend">- ENVOYEZ -</button>
-                  <a href="#" id="cancel-form">Cancel</a>
+                  <button type="submit" id="formSend">ENVOYEZ</button>
+                  <a href="" id="cancel-form">Cancel</a>
 
                 </div>
               </form>
@@ -346,7 +347,7 @@
 
 
       </div>
-      <script src="js/app.js"></script>
+      
       <script src="/js/mdb.min.js" type="text/javascript"></script>
       <script>
         function initMap() {
