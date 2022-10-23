@@ -1,6 +1,6 @@
 # Realtor Landing Page
 
-This landing page project was built using Boostrap 5 & Javascript. It was also used to practice concepts like responsive web design (media queries) and using API's
+This landing page project was built using Bootstrap 5 & Javascript. It was also used to practice concepts like responsive web design (media queries) and using API's
 
 https://stellar-melomakarona-3e0de3.netlify.app/
 
